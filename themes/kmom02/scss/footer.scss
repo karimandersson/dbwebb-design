@@ -1,0 +1,32 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+    background-color: $footer-color;
+
+    height: 100px;
+
+    padding-top: 4px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    a {
+        color: $font-color;
+    }
+
+    .social {
+        font-size: 2rem;
+    }
+
+    .social a {
+        text-decoration: none;
+    }
+
+    // Some space between text and iconss even on small devices
+    .footer-text {
+        margin-right: 4px;
+    }
+
+}

@@ -1,0 +1,60 @@
+/* Typografy */
+
+body {
+    // font-family: sans-serif;
+    line-height: 1.5rem;
+    color: #444;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-size: 1.25em;
+}
+
+h1 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-top: 1.6em;
+    margin-bottom: 0.4em;
+    font-weight: bold;
+}
+
+p, ul {
+    margin-bottom: 1.75rem;
+}
+
+// If p is followed by ul or ol make the margin smaller 
+p ~ ul, ol {
+    margin-top: -1.50rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5%
+}
+
+// When colapsed menu, also make fonts smaller and vertical spacing
+@media (max-width: 767px) {
+    p, td, th, li, dd {
+        font-size: 1em;
+    }
+
+    p, ul {
+        margin-bottom: 1.25rem;
+    }
+
+    p ~ ul, ol {
+        margin-top: -1rem;
+    }
+    
+}

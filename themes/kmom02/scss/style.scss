@@ -1,0 +1,71 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+// @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Open+Sans&family=PT+Serif&family=Roboto&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Open+Sans&family=PT+Serif:ital@0;1&family=Roboto&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=PT+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=PT+Serif:ital@0;1&display=swap');
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+
+@import 'footer';
+@import 'header';
+@import 'typography';
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
+
+* {
+    font-family: $fonts-text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fonts-headlines;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+

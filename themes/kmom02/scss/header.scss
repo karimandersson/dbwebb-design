@@ -1,0 +1,70 @@
+/* Header */
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    padding-left: 5%;
+    padding-right: 5%;
+
+    li a {
+        text-decoration: none;
+    }
+    
+    // This is to prevent "hopping" borders
+    li {
+        border-top: 4px solid rgba(0, 0, 0, 0);
+    }
+
+    @mixin border-top {
+        border-top: 4px solid $menu-hover-color;
+    }
+
+    @mixin border-bottom-hover {
+        border-bottom: 4px solid $menu-hover-color;
+    }
+
+    @mixin border-bottom-active {
+        border-bottom: 4px solid $menu-active-color;
+    }
+
+    li:hover {
+        @include border-top;
+        @include border-bottom-hover()
+    }
+
+    .active {
+        @include border-bottom-active;
+    }
+
+    .active:hover {
+        @include border-top;
+        @include border-bottom-active();
+    }
+}
+
+/* Title */
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+.title p {
+    font-style: italic;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
