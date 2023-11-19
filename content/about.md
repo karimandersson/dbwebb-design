@@ -1,7 +1,7 @@
 ---
 Title: About
 Description: Info about the page
-icon: fa fa-info-circle
+icon: fas fa-info-circle
 ---
 
 # Om webbplatsen
