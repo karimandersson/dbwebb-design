@@ -1,0 +1,72 @@
+body {
+    background-color: $background-color;
+    background-image:
+    linear-gradient(
+        to right,
+        $color2b,
+        $background-color 4%,
+        $background-color 96%,
+        $color2b
+    );
+
+    @media screen and (max-width: 767px) {
+        background-image:
+        linear-gradient(
+            to right,
+            $color2b,
+            $background-color 2%,
+            $background-color 98%,
+            $color2b
+        );
+    }
+}
+
+* {
+    color: $font-color;
+}
+
+* {
+    font-family: $fonts-text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fonts-headlines;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+.picture-me {
+    filter: $picture-filter;
+}

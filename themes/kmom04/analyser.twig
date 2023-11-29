@@ -1,0 +1,22 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="landingpage">
+            <h1>Analyser</h1>
+
+            {% for page in pages("analysis")|sort_by("name") if not page.hidden %}
+            <div class="tech-box {{ page.title|lower }}">
+                <h2>{{ page.description }}</h2>
+                <p><a href="{{ page.url }}">Läs mer om {{ page.title }}</a></p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

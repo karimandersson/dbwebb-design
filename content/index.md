@@ -11,4 +11,4 @@ Här är en liten sida som start på portfolioarbetet som kommer genomföras i d
 
 Här är en bild på mig:
 
-![Bild på mig](image/me2.jpg?w=100 "Karim Andersson")
+![Bild på mig](image/me2.jpg?w=100 "Karim Andersson") {.picture-me}

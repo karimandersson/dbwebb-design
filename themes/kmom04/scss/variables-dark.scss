@@ -1,0 +1,47 @@
+// Triadiskt färgschema med utgångspunkt från #4F7D6F (som är $color1b i ljusa färgtemat)
+$color1a: #4F7D6F;
+$color1b: #B0D2C8;
+$color1c: #764F7D;
+$color2a: #FCE6A9;
+$color2b: #7D714F;
+
+$font-color: $color1a;
+$font-alternative-color: #fff;
+
+$accent-color: $color2a;
+$background-color: #222;
+$background-alternative-color: #e0fbfc;
+$footer-color: #222; 
+$footer-color-2: #48412e;
+$footer-shadow-color: rgba(34, 34, 34, 0.5);
+$menu-hover-color: $color1c; 
+$menu-active-color: $color2a;
+
+$fonts-headlines: 'Work Sans', sans-serif;
+$fonts-text: 'Work Sans', sans-serif;
+
+$picture-filter: grayscale(80%);
+$logo-filter: invert(20%);
+
+$code-background: #111;
+
+$footer-top: 1px;
+
+// $footer-linear: linear-gradient($footer-color, $footer-color-2);
+$footer-linear: linear-gradient(to right, 
+$color2b,
+rgba(34, 34, 34, 0.5) 4%,
+rgba(34, 34, 34, 0.5) 96%,
+$color2b
+),
+linear-gradient($footer-color, $footer-color-2)
+;
+
+$footer-linear-small: linear-gradient(to right, 
+$color2b,
+rgba(34, 34, 34, 0.5) 2%,
+rgba(34, 34, 34, 0.5) 98%,
+$color2b
+),
+linear-gradient($footer-color, $footer-color-2)
+;

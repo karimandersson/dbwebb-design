@@ -1,6 +1,6 @@
 ---
-Title: Technologies
-Description: This is my technologies page.
+Title: Teknologier
+Description: Sida om olika teknologier.
 Template: technologies
 ---
 
