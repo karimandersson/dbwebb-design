@@ -1,0 +1,50 @@
+/* technology.scss */
+.tech-container {
+    margin: 0 auto;
+
+}
+
+.tech-flex {
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.tech-menu{
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    p {
+        margin-bottom: 0.7rem;
+    }
+
+    p a {
+        text-decoration: none;
+        font-family: $fonts-headlines;
+    }
+
+    p a:hover {
+        text-decoration: underline;
+    }
+}
+
+.tech-main {
+    width: auto;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+    .tech-menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .tech-main {
+        width: 800px;
+    }
+}

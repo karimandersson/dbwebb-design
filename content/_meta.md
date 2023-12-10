@@ -9,7 +9,7 @@ Social:
       url: https://github.com/dbwebb-se/design-v3
       icon: fab fa-github
     - title: Link to the Weather in Lund
-      url: http://servlet.dmi.dk/byvejr/servlet/byvejr_dag1?by=151&mode=long
+      url: https://servlet.dmi.dk/byvejr/servlet/byvejr_dag1?by=151&mode=long
       icon: fas fa-cloud-sun-rain
     - title: Dark Mode
       url: ?action=theme

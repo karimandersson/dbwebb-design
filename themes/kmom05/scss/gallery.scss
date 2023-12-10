@@ -1,0 +1,70 @@
+/* gallery.scss */
+.gall-landingpage {
+    display: grid;
+    gap: 1em 1em;
+    max-width: 960px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+
+
+    h1 {
+        grid-column: span 3;
+        justify-self: center;
+    }
+
+    h2 {
+        grid-column: span 3;
+        text-align: center;
+    }
+
+    .embed-container {
+        grid-column: span 3;
+    }
+
+    p {
+        grid-column: span 3;
+    }
+}
+
+.pic01, .pic04, .pic07, .pic10 {
+    grid-column: 1 / 2;
+}
+
+.pic02, .pic05, .pic08, .pic11 {
+    grid-column: 2 / 3;
+}
+
+.pic03, .pic06, .pic09, .pic12 {
+    grid-column: 3 / 4;
+}
+
+@media screen and (max-width: 600px) {
+    .gall-landingpage {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gall-landingpage h1 {
+        grid-column: span 1;
+    }
+
+    .gall-landingpage h2 {
+        grid-column: span 1;
+    }
+
+    .gall-landingpage p {
+        grid-column: span 1;
+    }
+
+    .gall-landingpage .embed-container {
+        grid-column: span 1;
+    }
+
+    .gall-landingpage .pic01, .pic04, .pic07, .pic10,
+    .pic02, .pic05, .pic08, .pic11,
+    .pic03, .pic06, .pic09, .pic12 {
+        grid-column: 1 / 2;
+    }
+
+}
+

@@ -32,12 +32,29 @@ Resultat
 
 Länkar till bilder på universitetens startsidor i 100% storlek:
 
+<!--
 KU, SU, UiO, HU
 
 <a href="../image/ku.png"><img src="../image/ku.png?width=100" alt="KU" /></a>
 <a href="../image/su.png"><img src="../image/su.png?width=100" alt="SU" /></a>
 <a href="../image/uio.png"><img src="../image/uio.png?width=100" alt="UiO" /></a>
 <a href="../image/hu.png"><img src="../image/hu.png?width=100" alt="HU" /></a>
+-->
+
+<table>
+    <tr>
+        <td><a href="../image/ku.png"><img src="../image/ku.png?width=100&height=300&crop-to-fit&area=0,0,20,0" alt="KU" /></a></td>
+        <td><a href="../image/su.png"><img src="../image/su.png?width=100&height=300&crop-to-fit&area=0,0,40,0" alt="SU" /></a></td>
+        <td><a href="../image/uio.png"><img src="../image/uio.png?width=100&height=300&crop-to-fit&area=0,0,40,0" alt="UiO" /></a></td>
+        <td><a href="../image/hu.png"><img src="../image/hu.png?width=100&height=300&crop-to-fit&area=0,0,40,0" alt="HU" /></a></td>
+    </tr>
+    <tr>
+        <td><em>KU</em></td>
+        <td><em>SU</em></td>
+        <td><em>UiO</em></td>
+        <td><em>HU</em></td>
+    </tr>
+</table>
 
 ### Köpenhamns universitet
 <table style="border-spacing: 4px; border-collapse: separate">
