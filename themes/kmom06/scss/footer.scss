@@ -1,0 +1,40 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: $footer-top;
+    background-color: $footer-color;
+    // background-image: linear-gradient($footer-color, $footer-color-2);
+    background-image: $footer-linear;
+    @media screen and (max-width: 767px) {
+        background-image: $footer-linear-small;
+    }
+
+    height: 100px;
+
+    padding-top: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    a {
+        color: $font-color;
+    }
+
+    .social {
+        font-size: 2rem;
+    }
+
+    .social a {
+        text-decoration: none;
+    }
+
+    // Some space between text and iconss even on small devices
+    .footer-text {
+        margin-right: 4px;
+    }
+
+    // box-shadow: 0 50vh 0 50vh $footer-color-2;
+    box-shadow: 0 50vh 0 50vh $footer-shadow-color;
+
+}

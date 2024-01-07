@@ -1,0 +1,52 @@
+// Komplementärt färgschema med utgångspunkt från #48BC9A
+$color1a: #48BC9A;
+$color1b: #4F7D6F;
+$color1c: #363D3B;
+$color2a: #BD6148;
+$color2b: #68504A;
+$colorshadow1: #68504A28;
+$colorshadow2: #68504A41;
+$colorshadow3: #ffffff08;
+
+$menualt-hover: #4F7D6FBB;
+$menualt-hover-text: #000;
+$menualt-active: #BD6148BB;
+$menualt-active-text: #000;
+
+$font-color: #333;
+$font-alternative-color: #fff;
+
+// $accent-color: #ee6c4d;
+// $accent-color: #B38669;
+$accent-color: $color2a;
+// $background-color: #3d5a80;
+$background-color: #fff;
+$background-alternative-color: #e0fbfc;
+// $footer-color: #5f9ea0; // cadetblue
+// $footer-color: #69B0B3; // cadetblue had bad contrast, this i a little lighter
+$footer-color: $color1a; 
+$footer-color-2: $color1b;
+$footer-shadow-color: rgba(79, 125, 111, 0.5);
+// $menu-hover-color: #5f9ea0; // cadetblue
+// $menu-hover-color: #69B0B3; 
+$menu-hover-color: $color1b; 
+// $menu-active-color: #D3453D;
+// $menu-active-color: #B38669;
+$menu-active-color: $color2a;
+
+// $menushadow: $colorshadow1 0 0 0 2px, $colorshadow2 0 8px 10px -1px, $colorshadow3 0 2px 0 inset;
+
+// $fonts-headlines: 'Nunito Sans', 'Open Sans', sans-serif;
+// $fonts-text: 'PT Serif', 'Roboto', sans-serif;; 
+$fonts-headlines: 'Nunito Sans', sans-serif;
+$fonts-text: 'PT Serif', sans-serif;
+
+$picture-filter: grayscale(50%);
+$logo-filter: none;
+
+$code-background: #f5f5f5;
+
+$footer-top: 1px solid #222;
+
+$footer-linear: linear-gradient($footer-color, $footer-color-2);
+$footer-linear-small: $footer-linear;
